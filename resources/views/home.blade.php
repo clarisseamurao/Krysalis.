@@ -4,16 +4,88 @@
 
 <section class="hero">
     <div class="hero-content">
+
         <div class="small-line"></div>
-        <h1>KRYSALIS</h1>
-        <h3>Websites That Transform Businesses</h3>
+
+        <h1>
+            WE BUILD WEBSITES <br>
+            THAT BRING YOU CLIENTS
+        </h1>
+
+        <h3>
+            Premium Web Design for Growing Businesses
+        </h3>
+
         <p>
-            We create powerful, minimalist, and high-converting websites for restaurants,
-            salons, dental clinics, service businesses, and growing local brands.
+            We help restaurants, salons, clinics, and local brands
+            turn visitors into paying customers through powerful,
+            conversion-focused websites.
         </p>
 
-        <a href="{{ route('contact') }}" class="btn">Start Your Website</a>
-        <a href="{{ route('services') }}" class="btn btn-outline">View Services</a>
+        <div class="hero-buttons">
+            <a href="{{ route('contact') }}" class="btn">
+                Book Free Consultation
+            </a>
+
+            <a href="#portfolio" class="btn btn-outline">
+                View Our Work
+            </a>
+        </div>
+
+        <div class="hero-proof">
+            <div>Responsive Design</div>
+            <div>SEO Ready</div>
+            <div>Built to Convert</div>
+        </div>
+
+    </div>
+</section>
+
+<section id="portfolio" class="section portfolio-section">
+    <h2 class="section-title">Recent Website Concepts</h2>
+    <p class="section-subtitle">
+        Sample website designs built for businesses that need stronger online presence, better trust, and more customer inquiries.
+    </p>
+
+    <div class="portfolio-grid">
+        <div class="portfolio-card">
+            <div class="portfolio-image restaurant-demo"></div>
+            <div class="portfolio-content">
+                <span>Restaurant Website</span>
+                <h3>Reservation & Menu Website</h3>
+                <p>
+                    A premium restaurant website concept with menu display, reservation CTA,
+                    location details, and high-converting food presentation.
+                </p>
+                <a href="{{ route('contact') }}">Request Similar Website</a>
+            </div>
+        </div>
+
+        <div class="portfolio-card">
+            <div class="portfolio-image salon-demo"></div>
+            <div class="portfolio-content">
+                <span>Salon Website</span>
+                <h3>Booking-Focused Salon Website</h3>
+                <p>
+                    A clean beauty service website concept designed for appointment booking,
+                    service lists, price display, and client inquiries.
+                </p>
+                <a href="{{ route('contact') }}">Request Similar Website</a>
+            </div>
+        </div>
+
+        <div class="portfolio-card">
+            <div class="portfolio-image clinic-demo"></div>
+            <div class="portfolio-content">
+                <span>Clinic Website</span>
+                <h3>Professional Clinic Website</h3>
+                <p>
+                    A trustworthy clinic website concept with service pages, appointment forms,
+                    credibility sections, and clear contact information.
+                </p>
+                <a href="{{ route('contact') }}">Request Similar Website</a>
+            </div>
+        </div>
     </div>
 </section>
 
